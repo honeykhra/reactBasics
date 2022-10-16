@@ -8,6 +8,7 @@ import Counter from "./components/Counter";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import ConditionalRender from "./components/ConditionalRender";
+import NamesList from "./components/NamesList";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <EventBind />
       <ParentComponent />
       <ConditionalRender />
+      <NamesList />
     </div>
   );
 }
