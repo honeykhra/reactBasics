@@ -10,8 +10,10 @@ export default class ConditionalRender extends Component {
   }
 
   render() {
+    // Short circuit operator
     // return this.state.isLoggedin && <h3>Conditional render username Honey</h3>;
 
+    // Ternary operator
     return this.state.isLoggedin ? (
       <h3>Conditional render username Honey</h3>
     ) : (
